@@ -1,14 +1,45 @@
-textarea{
-    display: block;
-    margin: 1rem;
-    padding: 1rem;
+:root{
+    --primary: #FFD55E;
+    --secondary: #5E88FF;
 }
 
+body{
+    background-color: var(--primary);
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    margin: 2rem;
+}
+
+#txt-input{
+    margin-top: 5rem;
+    /* margin-left: 40rem; */
+    padding: 1rem;
+    
+}
+
+#img-minion{
+    float: right;
+    margin-top: 8rem;
+}
+
+#btn-translate{
+    display: block;
+    /* margin-left: 40rem; */
+}
 #txt-output{
     display: block;
     border: solid black 1px;
     padding: 1rem;
     height: 5rem;
     width: 15rem;
-    margin: 1rem;
+    margin-top: 1rem;
+    /* margin-left: 40rem; */
+}
+
+#para{
+    /* margin-left: 40rem; */
 }
