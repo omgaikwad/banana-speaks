@@ -15,15 +15,9 @@ h1{
 }
 
 #txt-input{
-    margin-top: 5rem;
+    display: block;
     /* margin-left: 40rem; */
     padding: 1rem;
-    
-}
-
-#img-minion{
-    float: right;
-    margin-top: 8rem;
 }
 
 #btn-translate{
